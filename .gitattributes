@@ -1,0 +1,10 @@
+# Handle line endings automatically for text files
+* text=auto
+# Explicitly declare text files to be normalized and converted to native line endings on checkout
+*.c text
+*.h text
+# Denote all files in node_modules as binary to prevent line ending conversions
+api/node_modules/**/* binary
+client/node_modules/**/* binary
+*.psd filter=lfs diff=lfs merge=lfs -text
+client/node_modules/.cache/default-development/*.pack filter=lfs diff=lfs merge=lfs -text
