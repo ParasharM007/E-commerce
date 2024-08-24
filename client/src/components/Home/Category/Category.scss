@@ -3,12 +3,16 @@ body{
     overflow-x:hidden;
 }
 .shop-by-category{
+    position: relative;
   margin: 50px 0px;
 }
 .categories{
+    position: relative;
     display: flex;
     flex-flow: wrap;
-    width: 100vw;
+    top: 0px;
+    left: -39px;  
+      width: 100vw;
     align-items: center;
     justify-content:center;
     gap:10px;

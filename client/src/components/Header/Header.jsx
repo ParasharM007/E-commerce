@@ -19,7 +19,7 @@ const Header = () => {
         <ul className="left">
           <li onClick={()=>{navigate("/")}}>Home</li>
           <li>About</li>
-          <li onClick={()=>{navigate(`/categories/id=${param}`)}}>Categories</li>
+          <li onClick={()=>{navigate("/")}}>Categories</li>
         </ul>
         <div className="center" onClick={()=>{navigate("/")}}>E-Store</div>
         <div className="right">

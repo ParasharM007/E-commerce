@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
           <div className="bottom-bar">
             <div className="bottom-bar-content">
-              ECOMMERCE-STORE 2024 CREATED BY JS DEVELOPERS
+              ECOMMERCE-STORE 2024 CREATED BY MOHIT..
             </div>
             <img className="img" src={Payment} alt="" />
           </div>

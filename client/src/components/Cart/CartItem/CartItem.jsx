@@ -2,7 +2,7 @@ import "./CartItem.scss";
 import { useState,useContext} from "react";
 
 import { MdClose } from "react-icons/md";
-import prod from "../../../assets/products/earbuds-prod-1.webp";
+// import prod from "../../../assets/products/earbuds-prod-1.webp";
 import { Context } from "../../../utils/context";
 const CartItem = () => {
   const {handleCartProductQuantity,handleRemoveToCart,cartItems
